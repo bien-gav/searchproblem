@@ -1,0 +1,40 @@
+DEPTH FIRST SEARCH LOGGER FILE
+initializing stack : ['makati']
+popping stack..
+checking makati(['muntinlupa', 'sanjuan', 'taguig', 'pasay']) -> muntinlupa,
+pushing muntinlupa : ['muntinlupa']
+checking makati(['muntinlupa', 'sanjuan', 'taguig', 'pasay']) -> sanjuan,
+pushing sanjuan : ['muntinlupa', 'sanjuan']
+checking makati(['muntinlupa', 'sanjuan', 'taguig', 'pasay']) -> taguig,
+pushing taguig : ['muntinlupa', 'sanjuan', 'taguig']
+checking makati(['muntinlupa', 'sanjuan', 'taguig', 'pasay']) -> pasay,
+pushing pasay : ['muntinlupa', 'sanjuan', 'taguig', 'pasay']
+popping stack..
+checking pasay(['makati', 'valenzuela', 'manila']) -> valenzuela,
+pushing valenzuela : ['muntinlupa', 'sanjuan', 'taguig', 'valenzuela']
+checking pasay(['makati', 'valenzuela', 'manila']) -> manila,
+pushing manila : ['muntinlupa', 'sanjuan', 'taguig', 'valenzuela', 'manila']
+popping stack..
+checking manila(['taguig', 'pasig', 'pasay']) -> taguig,
+pushing taguig : ['muntinlupa', 'sanjuan', 'taguig', 'valenzuela', 'taguig']
+checking manila(['taguig', 'pasig', 'pasay']) -> pasig,
+pushing pasig : ['muntinlupa', 'sanjuan', 'taguig', 'valenzuela', 'taguig', 'pasig']
+popping stack..
+checking pasig(['taguig', 'manila', 'laspinas', 'mandaluyong']) -> taguig,
+pushing taguig : ['muntinlupa', 'sanjuan', 'taguig', 'valenzuela', 'taguig', 'taguig']
+checking pasig(['taguig', 'manila', 'laspinas', 'mandaluyong']) -> laspinas,
+pushing laspinas : ['muntinlupa', 'sanjuan', 'taguig', 'valenzuela', 'taguig', 'taguig', 'laspinas']
+checking pasig(['taguig', 'manila', 'laspinas', 'mandaluyong']) -> mandaluyong,
+pushing mandaluyong : ['muntinlupa', 'sanjuan', 'taguig', 'valenzuela', 'taguig', 'taguig', 'laspinas', 'mandaluyong']
+popping stack..
+checking mandaluyong(['pasig', 'valenzuela', 'quezon', 'marikina']) -> valenzuela,
+pushing valenzuela : ['muntinlupa', 'sanjuan', 'taguig', 'valenzuela', 'taguig', 'taguig', 'laspinas', 'valenzuela']
+checking mandaluyong(['pasig', 'valenzuela', 'quezon', 'marikina']) -> quezon,
+pushing quezon : ['muntinlupa', 'sanjuan', 'taguig', 'valenzuela', 'taguig', 'taguig', 'laspinas', 'valenzuela', 'quezon']
+checking mandaluyong(['pasig', 'valenzuela', 'quezon', 'marikina']) -> marikina,
+pushing marikina : ['muntinlupa', 'sanjuan', 'taguig', 'valenzuela', 'taguig', 'taguig', 'laspinas', 'valenzuela', 'quezon', 'marikina']
+popping stack..
+checking marikina(['malabon', 'mandaluyong']) -> malabon,
+pushing malabon : ['muntinlupa', 'sanjuan', 'taguig', 'valenzuela', 'taguig', 'taguig', 'laspinas', 'valenzuela', 'quezon', 'malabon']
+popping stack..
+GOAL STATE FOUND
